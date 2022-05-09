@@ -7,18 +7,14 @@ let verificaMail = document.getElementById("myButton");
 
 let puoiNonPuoi = document.querySelector(".presenteAssente");
 
-let presente;
-
-let assente;
-
 verificaMail.addEventListener("click",
     function(){
 
         let scrivoMail = inputMail.value;
         console.log(scrivoMail);
-        let i;
+        let presente;
 
-        for (i = 0; i < listaMail.length; i++) {   
+        for (let i = 0; i < listaMail.length; i++) {   
             console.log(listaMail[i]);
 
             if (scrivoMail === listaMail[i]) {
