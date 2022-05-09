@@ -20,7 +20,6 @@ verificaMail.addEventListener("click",
                 puoiNonPuoi.innerHTML = "Puoi accedere!!!";
                 console.log("Puoi accedere!!!");
             } else {
-                puoiNonPuoi.innerHTML = "Non puoi!!!";
                 console.log("Non puoi");
             }
         }        
