@@ -12,16 +12,14 @@ verificaMail.addEventListener("click",
 
         let scrivoMail = inputMail.value;
         console.log(scrivoMail);
-        let presente;
 
         for (let i = 0; i < listaMail.length; i++) {   
             console.log(listaMail[i]);
 
             if (scrivoMail === listaMail[i]) {
-                presente = 1;
+                puoiNonPuoi.innerHTML = "Puoi accedere!!!";
                 console.log("Puoi accedere!!!");
             } else {
-                presente = 0;
                 console.log("Non puoi");
             }
         }        
