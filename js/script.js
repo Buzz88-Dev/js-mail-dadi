@@ -32,7 +32,7 @@ verificaMail.addEventListener("click",
 
 )
 
-// if (listaMail.includes(scrivoMail)){  // controlla se il valore che gli passo è incluso dentro l array
+// if (listaMail.includes(scrivoMail)){  // includes controlla se il valore che gli passo è incluso dentro l array
 //     puoiNonPuoi.innerHTML = "Puoi accedere!!!";
 // } else {
 //     puoiNonPuoi.innerHTML = "Non Puoi accedere!!!";
